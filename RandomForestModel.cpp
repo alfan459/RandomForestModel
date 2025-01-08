@@ -38,3 +38,9 @@ void RandomForestModel::printModelParameters() {
   Serial.print("  Intercept: ");
   Serial.println(_intercept);
 }
+
+// getFunction
+float RandomForestModel::getCoefVolume() { return _coefVolume; }
+float RandomForestModel::getCoefWaktu() { return _coefWaktu; }
+float RandomForestModel::getIntercept() { return _intercept; }
+float RandomForestModel::getLearningRate() { return _learningRate; }
