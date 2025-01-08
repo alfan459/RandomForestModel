@@ -20,6 +20,13 @@ class RandomForestModel {
     // Print current model parameters
     void printModelParameters();
 
+    // Getter methods
+    float getCoefVolume();  // Get coefficient for volume
+    float getCoefWaktu();   // Get coefficient for waktu
+    float getIntercept();   // Get intercept
+    float getLearningRate(); // Get learning rate
+
+
   private:
     float _coefVolume;   // Coefficient for volume
     float _coefWaktu;    // Coefficient for waktu
